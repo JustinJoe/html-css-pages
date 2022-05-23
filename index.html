@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="log-in.html">Log In</a></li>
+                <li><a href="calculator-table.html">Calculator (Table)</a></li>
+                <li><a href="calculator-flex.html">Calculator (Flex)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about-me">
+        <h1>About Me</h1>
+        <img src="img/img-1.jpg" alt="Image of Joseph Justin">
+        <p>My name is Joseph Justin, a Ghanaian student at AltSchool Africa. My goal is to become a world class software engineer by the end of this programme</p>
+
+        <h2>Education</h2>
+        <ul class="list">
+            <li>Opoku Ware School (2007 - 2011)</li>
+            <li>University of Mines and Technology (2011 - 2015)</li>
+            <li>AltSchool Africa (2022 - Date)</li>
+        </ul>
+
+        <h2>Job Experience</h2>
+        <ul>
+            <li>Africa Mining Services (2021 - Date)</li>
+        </ul>
+
+        <h2>Hobbies & Other Skills</h2>
+        <ul class="list">
+            <li>Movies</li>
+            <li>Music</li>
+            <li>Reading</li>
+            <li>Poetry</li>
+        </ul>
+    </section>
+
+    <section id="contact-me">
+        <form action="" method="get">
+            <fieldset class="register">
+                <h2>CONTACT ME</h2> 
+                <label>Name
+                    <input type="text" name="name" required placeholder="Enter your name">
+                </label>
+                <label>Email
+                    <input type="email" name="email" required placeholder="username@domain.com">
+                </label>
+                <label>Message
+                    <textarea name="message" placeholder="Enter your message"></textarea>
+                </label>
+                <label>Select Priority
+                    <select name="priority">
+                        <option selected disabled hidden>Select Priority</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </label>
+                <button class="btn btn-default" type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
